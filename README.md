@@ -1,16 +1,32 @@
-# React + Vite
+# 📝 React To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive, feature-rich To-Do application built with **React**, **Vite**, and **Tailwind CSS v4**. 
 
-Currently, two official plugins are available:
+This project was built to master core React concepts including state management, array manipulation, and browser storage persistence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Full CRUD Functionality:** Create, Read, Update, and Delete tasks seamlessly.
+* **Persistent Data:** Tasks are automatically saved to the browser's `localStorage` so you never lose your list, even after refreshing the page.
+* **Smart Validation:** Prevents users from submitting empty or blank tasks.
+* **Interactive UI:** Checkboxes toggle a crossed-out state for completed tasks.
+* **Fully Responsive:** Built with Tailwind's mobile-first approach. The layout stacks neatly on mobile devices and expands into a clean, centered interface on tablets and desktops.
+* **Crash-Proof:** Includes robust error handling to clear corrupted `localStorage` data on load.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* **Frontend Framework:** React (Functional Components & Hooks)
+* **Build Tool:** Vite (for lightning-fast compilation)
+* **Styling:** Tailwind CSS (v4)
+* **Utilities:** `uuid` (for generating unique keys)
+
+---
+
+## 🚀 Deployed Link (On vercel )
+
+https://react-tailwindcss-todo-app.vercel.app/
+
